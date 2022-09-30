@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mineflayer": "^4.4.0",
+    "mineflayer-auto-auth": "^2.0.0"
+  }
+}
