@@ -1,6 +1,6 @@
 # Op.Bot
 
-Es un bot spammer para los servidores de minecraft
+Bot spam para los servidores de minecraft no premium
 
 ```js
 version: '1.8.9', //Aqui la versión, mineflayer no tiene soporte para la 1.19 aún
