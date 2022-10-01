@@ -11,9 +11,8 @@ port: '25565', //Aqui pones el puerto, el puerto por defecto es 25565
 ## Paso 1
 
 ```bash
-npm install mineflayer-auto-auth
-npm install mineflayer
-npm install minecraft-data 
+npm i mineflayer-auto-auth
+npm i mineflayer
 ```
 
 ## Paso final xd
