@@ -8,15 +8,9 @@ host: '127.0.0.1', //Aqui la ip del servidor
 port: '25565', //Aqui pones el puerto, el puerto por defecto es 25565
 ```
 
-## Paso 1
-
+### Instalación y Arranque del script (Windows)
 ```bash
-npm i mineflayer-auto-auth
-npm i mineflayer
-```
-
-## Paso final xd
-
-```bash
-node uwu.js
+> npm i mineflayer-auto-auth
+> npm i mineflayer
+> node uwu.js
 ```
