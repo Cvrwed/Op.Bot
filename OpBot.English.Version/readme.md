@@ -1,7 +1,6 @@
 # Op.Bot
 
 Spam bot for non-premium minecraft servers
-
 ```js
 version: '1.8.9', //Here the version, mineflayer does not support 1.19 yet.
 host: '127.0.0.1', //Here is the server ip
