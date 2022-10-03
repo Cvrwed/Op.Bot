@@ -7,16 +7,9 @@ version: '1.8.9', //Here the version, mineflayer does not support 1.19 yet.
 host: '127.0.0.1', //Here is the server ip
 port: '25565', //Here you enter the port, the default port is 25565.
 ```
-
-## Install
-
+### Install and Run (Windows)
 ```bash
-npm i mineflayer-auto-auth
-npm i mineflayer
-```
-
-## Finish
-
-```bash
-node uwu.js
+> npm i mineflayer-auto-auth
+> npm i mineflayer
+> node uwu.js
 ```
