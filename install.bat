@@ -7,3 +7,4 @@ cls
 npm i mineflayer-auto-auth
 cls
 npm i mineflayer-gui
+echo on
