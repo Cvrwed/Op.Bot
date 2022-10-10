@@ -1,5 +1,5 @@
 cls
-title Op bot - uwu
-cls
-node uwu.js
+title Op bot
 echo off
+cls
+node OpBot.js
