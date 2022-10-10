@@ -1,5 +1,5 @@
 cls
-title Op bot - uwu
+title Op bot - install
 cls
 npm i mineflayer
 cls
