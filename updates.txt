@@ -1,6 +1,4 @@
 In process:
 
-Auto reconnect
 Anti Afk
 Tracing
-Automatic skin
