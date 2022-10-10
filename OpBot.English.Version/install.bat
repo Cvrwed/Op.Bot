@@ -1,7 +1,9 @@
 cls
-title Op bot - uwu
+title Op bot - install
+echo off
 cls
 npm i mineflayer
 cls
 npm i mineflayer-auto-auth
-echo off
+cls
+echo on
