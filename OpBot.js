@@ -22,15 +22,15 @@ const Bot = class {
 
         bot.on('spawn', () => {
             let sex = bot._client.socket;
-            console.log(`[${username}] Join to ${sex._host}`);
+            console.log(`[${username}] Connect in ${sex._host}`);
         });
 
-        bot.on('kicked', (reason) => {
-            console.log(`[${username}] Kick: ${reason}`);
+        bot.on('disconnect', function (packet) {
+            console.log(`[${username}] Disconnect: ` + packet.reason)
         });
 
         bot.on('end', () => {
-            console.log(`[${username}] Disconnected`);
+            console.log(`[${username}] Connection Lost`);
         });
 
         bot.on('error', (err) => { 
@@ -48,10 +48,10 @@ const Bot = class {
         });
     }
 };
-
+        //Join Bots
 let i = 0
 function next() {
-    if (i < 9000) {
+    if (i < 200) {
         i++
         setTimeout(() => {
             new Bot(crypto.randomBytes(8).toString('hex'));
