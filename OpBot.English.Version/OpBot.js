@@ -6,13 +6,13 @@ var crypto = require("crypto");
 const Bot = class {
     constructor(username) {
         const bot = mineflayer.createBot({
-            plugins: [AutoAuth],
+            plugins: [AutoAuth], 
             username: `${username}`,
             AutoAuth: {password: 'OowoO777+', ignoreRepeat: true},
             version: '1.8.9',
-            host: 'play.chilitocrafters.com',
-            port: '25565',
-            viewDistance: 'tiny',
+            host: 'us183hake1773.ddns.net',
+            port: '25564',
+            viewDistance: 'normal',
             hideErrors: true,
             keepAlive: true,
             checkTimeoutInterval: 60*1000,
@@ -51,7 +51,7 @@ const Bot = class {
         //Join Bots
 let i = 0
 function next() {
-    if (i < 2000) {
+    if (i < 200) {
         i++
         setTimeout(() => {
             new Bot(crypto.randomBytes(8).toString('hex'));
